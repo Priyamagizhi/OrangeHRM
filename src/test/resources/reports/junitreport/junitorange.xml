@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="56.671949">
+<testcase classname="To validate the login functionality of orange application" name="To validate the login functionality with valid credentials" time="28.708916">
+<system-out><![CDATA[Given The user should be in orange homepage and has to fill "Admin" and "admin123" and click the login buttons.passed
+When The user click recruitment page........................................passed
+When The user click add button..............................................passed
+When The user has to fill fullname "LakshmiPriya"...........................passed
+And The user has to fill lastname "Jaisankar"...............................passed
+When The user has to choose the vacancy buttons.............................passed
+When The user has to fill email id "priya9876@gmail.com"....................passed
+When The user has to fill contact number "987654321"........................passed
+And The user has to scrolldown..............................................passed
+When The user has to click the "save" button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of orange application" name="To validate the create claim request" time="27.963033">
+<skipped><![CDATA[Given The user should be in orange homepage and has to fill "Admin" and "admin123" and click the login buttons.passed
+When The user has to be in the claim module and able to click the Assign claim.passed
+Then The user has to fill the employee name , event and currency and click the create button.passed
+And The user has to add their expenses type and amount "50000"  and click submit.passed
+Then The user can view the claims in the Employee claims....................undefined
+]]></skipped>
+</testcase>
+</testsuite>
